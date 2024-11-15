@@ -112,3 +112,14 @@ body {
   max-width: 100px;
   border-radius: 10px;
 }
+
+button {
+  background: #ffb6c1;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
