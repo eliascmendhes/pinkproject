@@ -7,7 +7,7 @@ import React from 'react';
           <div className="entry-block">
             <h3>Desenvolvimento</h3>
             <p>Estou trabalhando nesse projeto. Bem cansativo. APi em desenvolvimento.</p>
-            <img src="https://via.placeholder.com/150" alt="Park" />
+            <img src="https://via.placeholder.com/150" />
           </div>
         </div>
       );

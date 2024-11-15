@@ -8,7 +8,7 @@ import React from 'react';
             <h3>nome da musica</h3>
             <p>Artista</p>
             <p>Album</p>
-            <img src="https://via.placeholder.com/150" alt="Lemon" />
+            <img src="https://via.placeholder.com/150"  />
             <p> Link: <a href="https://example.com/lemon" target="_blank" rel="noopener noreferrer">Listen</a></p>
           </div>
           

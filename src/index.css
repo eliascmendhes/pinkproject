@@ -1,19 +1,19 @@
 body {
-  font-family: Verdana, sans-serif; /* Use Verdana font */
+  font-family: Verdana, sans-serif; 
 
   color: #333;
   margin: 0;
   padding: 0;
   background: url('../assets/pink008.jpg') no-repeat center center fixed;
   background-size: cover;
-  height: 100vh; /* Ensure it covers the entire height of the viewport */
+  height: 100vh; 
 }
 .container {
   max-width: 1200px;
   margin: 0 auto;
   padding: 20px;
   border-radius: 10px;
-  min-height: 100vh; /* Ensure the container covers the entire height of the viewport */
+  min-height: 100vh; 
 }
 .navbar {
   display: flex;
@@ -91,7 +91,7 @@ body {
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 20px;
-  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+  box-sizing: border-box; 
 }
 .marquee span {
   display: inline-block;
