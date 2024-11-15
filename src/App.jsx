@@ -28,7 +28,7 @@ import React, { useState, useEffect } from 'react';
           <div className="container">
             <div className="navbar">
               <Link to="/">Home</Link>
-              <Link to="/diary">DIário</Link>
+              <Link to="/diary">Diário</Link>
               <Link to="/movies">Filmes</Link>
               <Link to="/music">Música</Link>
             </div>
