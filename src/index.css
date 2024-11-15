@@ -1,0 +1,114 @@
+body {
+  font-family: Verdana, sans-serif; /* Use Verdana font */
+
+  color: #333;
+  margin: 0;
+  padding: 0;
+  background: url('../assets/pink008.jpg') no-repeat center center fixed;
+  background-size: cover;
+  height: 100vh; /* Ensure it covers the entire height of the viewport */
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 10px;
+  min-height: 100vh; /* Ensure the container covers the entire height of the viewport */
+}
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  background: #ffb6c1;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.navbar a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 1.2em;
+}
+.footer {
+  background: #ffb6c1;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+.category {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.category h2 {
+  color: #ff69b4;
+}
+.category p {
+  color: #333;
+}
+.entry-block {
+  background: #ffdab9;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.entry-block h3 {
+  color: #ff1493;
+}
+.entry-block img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+.guestbook {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.guestbook h2 {
+  color: #ff69b4;
+}
+.guestbook-entry {
+  background: #ffdab9;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.guestbook-entry p {
+  color: #333;
+}
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  background: #ffb6c1;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-sizing: border-box; /* Ensure padding and border are included in the element's total width and height */
+}
+.marquee span {
+  display: inline-block;
+  padding-left: 100%;
+  white-space: nowrap;
+  animation: marquee 15s linear infinite;
+}
+@keyframes marquee {
+  0% { transform: translateX(100%); }
+  100% { transform: translateX(-100%); }
+}
+.gif-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+.gif-container img {
+  max-width: 100px;
+  border-radius: 10px;
+}
