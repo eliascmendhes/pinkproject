@@ -1,5 +1,5 @@
 import React from 'react';
-import { SpeedInsights } from "@vercel/speed-insights/next"
+
     const DiaryPage = () => {
       return (
         <div className="category">

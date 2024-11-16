@@ -1,5 +1,5 @@
 import React from 'react';
-import { SpeedInsights } from "@vercel/speed-insights/next"
+
     const MoviesPage = () => {
       return (
         <div className="category">

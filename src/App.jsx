@@ -5,7 +5,7 @@ import React, { useState, useEffect } from 'react';
     import MusicPage from './pages/MusicPage';
     import HomePage from './pages/HomePage';
     import './index.css';
-    import { SpeedInsights } from "@vercel/speed-insights/next"
+    
 
     const App = () => {
       const [audio] = useState(new Audio('https://streaming.radio.co/sefac315e7/listen'));
