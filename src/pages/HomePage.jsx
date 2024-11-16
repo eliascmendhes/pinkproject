@@ -19,7 +19,7 @@ import React from 'react';
           <div className="category">
             <h2>Música</h2>
             <div className="entry-block">
-              <p>Aperta o play. Eu gosto dessa rádio</p>
+              <p>rádio on ou off</p>
             </div>
           </div>
           
