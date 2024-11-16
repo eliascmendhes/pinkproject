@@ -39,7 +39,7 @@ import React, { useState, useEffect } from 'react';
             {/* <div className="gif-container">
              
             </div> */}
-            <button onClick={togglePlay}>{playing ? 'Pause Sound' : 'Play Sound'}</button>
+            <button onClick={togglePlay}>{playing ? 'Radio off' : 'Radio on'}</button>
             <Routes>
               <Route path="/" element={<HomePage />} />
               <Route path="/diary" element={<DiaryPage />} />
